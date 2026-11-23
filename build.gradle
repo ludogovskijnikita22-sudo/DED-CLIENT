@@ -1,3 +1,14 @@
-archivesBaseName = "DED-Client"
-group = "ru.dedclient"
-version = "1.0.0"
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name = "forge"
+            url = "https://maven.minecraftforge.net"
+        }
+    }
+    dependencies {
+        classpath("com.anatawa12.forge:ForgeGradle:2.3-1.0.+") {
+            changing = true
+        }
+    }
+}
