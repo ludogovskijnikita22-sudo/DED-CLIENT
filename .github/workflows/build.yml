@@ -21,11 +21,9 @@ jobs:
       - name: Setup Gradle Wrapper
         run: |
           mkdir -p gradle/wrapper
-          # Скачиваем исполняемые файлы
           curl -L -o gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v4.9.0/gradle/wrapper/gradle-wrapper.jar
           curl -L -o gradlew https://raw.githubusercontent.com/gradle/gradle/v4.9.0/gradlew
           curl -L -o gradlew.bat https://raw.githubusercontent.com/gradle/gradle/v4.9.0/gradlew.bat
-          # СОЗДАЕМ ФАЙЛ С НАСТРОЙКАМИ GRADLE 4.9
           echo "distributionBase=GRADLE_USER_HOME" > gradle/wrapper/gradle-wrapper.properties
           echo "distributionPath=wrapper/dists" >> gradle/wrapper/gradle-wrapper.properties
           echo "distributionUrl=https\\://services.gradle.org/distributions/gradle-4.9-bin.zip" >> gradle/wrapper/gradle-wrapper.properties
