@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "dedclient",
+    "name": "DED CLIENT",
+    "description": "DED Client with beautiful GUI and watermark",
+    "version": "1.0.0",
+    "mcversion": "1.12.2",
+    "authorList": ["DED"],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
