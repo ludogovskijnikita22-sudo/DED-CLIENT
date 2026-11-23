@@ -1,0 +1,3 @@
+archivesBaseName = "DED-Client"
+group = "ru.dedclient"
+version = "1.0.0"
