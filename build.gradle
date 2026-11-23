@@ -1,3 +1,5 @@
+// Увеличиваем память для сборки
+org.gradle.jvmargs=-Xmx3G
 buildscript {
     repositories {
         mavenCentral()
